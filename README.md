@@ -22,7 +22,7 @@ verify it is functioning at [http://localhost:7211](http://localhost:7211)
 You should see `Hello World: HelloServer:myhostname:7111`
 
 
-## See round robin load balancing in action
+## Round robin load balancing:
 
 run `java -jar server/target/feign-eureka-hello-server-0.0.1-SNAPSHOT.jar --server.port=7112`
 
